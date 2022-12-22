@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat-Black", sans-serif;
+}
+#title {
+  background-color: #3e3e3e;
+  color: #d2d2d2;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: bold;
+  font-size: 2.83rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "montserrate-bold";
+}
+.skill {
+  color: #6f6f6f;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.skill:hover {
+  color: #1c1c1c;
+  transition: 0.5s;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-top: 0;
+  padding-bottom: 6em;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  font-weight: 300;
+}
+
+.nav-link:hover {
+  border-bottom: solid 5px red;
+  transition: 0.5s;
+  padding-top: 0;
+  transform: translateY(-0.25em);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.link:hover {
+  color: black;
+}
+
+/* DOWNLOADN AND LINKEDIN BUTTONS */
+.download-button {
+  padding: 0 0.5em;
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  width: 65%;
+  border: 0.5rem solid rgba(255, 83, 83, 0.5);
+  margin-left: 32%;
+  border-radius: 50%;
+}
+
+.title-image:hover {
+  width: 75%;
+  border: 0.5rem solid rgba(255, 83, 83, 0.9);
+  margin-left: 26%;
+  transition: 0.5s;
+}
+
+/* FETURES */
+
+#features {
+  margin: 7% 12%;
+}
+.feature-box {
+  padding: 4%;
+}
+
+.logo {
+  color: #ef8172;
+  margin: 0 auto;
+  margin-bottom: 4%;
+}
+
+.logo:hover {
+  color: #f8523d;
+  transition: 0.3s;
+}
